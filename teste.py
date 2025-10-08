@@ -9,4 +9,5 @@ if nome:
 curso = st.text_input("qual curso você faz?")
 if curso == direito:
     st.write("Que interessante!")
-else st.write("Que triste :(")
+else:
+    st.write("Que triste :(")
