@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('deputados_2022.csv')
+df = pd.read_csv('path/to/deputados_2022.csv')
 
 # Calculate the number of candidates per party
 party_counts = df['partido'].value_counts().reset_index()
