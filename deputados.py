@@ -1,5 +1,5 @@
 %pip install streamlit
-
+ streamlit run /usr/local/lib/python3.12/dist-packages/colab_kernel_launcher.py 
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
