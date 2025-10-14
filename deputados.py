@@ -2,6 +2,10 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
+import os
+st.write("Current working directory:", os.getcwd())
+st.write("Files:", os.listdir('.'))
+
 df = pd.read_csv('path/to/deputados_2022.csv')
 _read(filepath_or_buffer, kwds)
 
